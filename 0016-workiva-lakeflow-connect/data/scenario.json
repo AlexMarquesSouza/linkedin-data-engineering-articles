@@ -1,0 +1,16 @@
+{
+  "activities": [
+    {
+      "id": "a",
+      "updated": 1
+    },
+    {
+      "id": "b",
+      "updated": 1
+    },
+    {
+      "id": "a",
+      "updated": 3
+    }
+  ]
+}

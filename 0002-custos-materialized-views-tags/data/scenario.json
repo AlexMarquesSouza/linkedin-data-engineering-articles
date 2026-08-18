@@ -1,0 +1,20 @@
+{
+  "usage": [
+    {
+      "cost": 12.5,
+      "tags": {
+        "team": "sales"
+      }
+    },
+    {
+      "cost": 7.5,
+      "tags": {}
+    },
+    {
+      "cost": 5.0,
+      "tags": {
+        "team": "sales"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "allowed": [
+    "drive.read",
+    "github.read"
+  ],
+  "requests": [
+    "drive.read",
+    "slack.write",
+    "github.read"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "payload": {
+        "country": "BR",
+        "device": "mobile"
+      }
+    },
+    {
+      "id": 2,
+      "payload": {
+        "country": "BR",
+        "device": "web"
+      }
+    }
+  ],
+  "fields": [
+    "country",
+    "device"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "target_python": "3.11",
+  "libraries": [
+    {
+      "name": "pandas",
+      "python": [
+        "3.10",
+        "3.11"
+      ]
+    },
+    {
+      "name": "legacy-wheel",
+      "python": [
+        "3.10"
+      ]
+    }
+  ]
+}

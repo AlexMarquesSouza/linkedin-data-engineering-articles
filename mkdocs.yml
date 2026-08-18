@@ -1,0 +1,99 @@
+site_name: LinkedIn — Notícias técnicas com implementação
+site_description: Artigos de Engenharia de Dados acompanhados de código local e testes
+use_directory_urls: false
+docs_dir: .
+site_dir: ../site-local/linkedin
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    primary: blue
+    accent: light blue
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+exclude_docs: |
+  **/__pycache__/**
+  **/data/**
+  **/src/**
+  **/tests/**
+  scripts/**
+  mkdocs.yml
+nav:
+  - Início: README.md
+  - Padrão didático: docs/PADRAO-DIDATICO.md
+  - 000 — Configuração: 000-configuracao-ambiente/README.md
+  - '0001 — Databricks Runtime 19 ou 18 LTS':
+      - Tutorial: 0001-databricks-runtime-19-vs-18-lts/README.md
+      - Artigo recuperado: 0001-databricks-runtime-19-vs-18-lts/artigo-linkedin.md
+      - Post com implementação: 0001-databricks-runtime-19-vs-18-lts/post-linkedin.md
+  - '0002 — Custos de Materialized Views com tags':
+      - Tutorial: 0002-custos-materialized-views-tags/README.md
+      - Artigo recuperado: 0002-custos-materialized-views-tags/artigo-linkedin.md
+      - Post com implementação: 0002-custos-materialized-views-tags/post-linkedin.md
+  - '0003 — SharePoint no Lakeflow Connect':
+      - Tutorial: 0003-sharepoint-lakeflow-connect/README.md
+      - Artigo recuperado: 0003-sharepoint-lakeflow-connect/artigo-linkedin.md
+      - Post com implementação: 0003-sharepoint-lakeflow-connect/post-linkedin.md
+  - '0004 — Metric Views e calendário fiscal':
+      - Tutorial: 0004-metric-views-calendario-fiscal/README.md
+      - Artigo recuperado: 0004-metric-views-calendario-fiscal/artigo-linkedin.md
+      - Post com implementação: 0004-metric-views-calendario-fiscal/post-linkedin.md
+  - '0005 — MCP no Unity AI Gateway':
+      - Tutorial: 0005-mcp-unity-ai-gateway/README.md
+      - Artigo recuperado: 0005-mcp-unity-ai-gateway/artigo-linkedin.md
+      - Post com implementação: 0005-mcp-unity-ai-gateway/post-linkedin.md
+  - '0006 — Tag Automations no Unity Catalog':
+      - Tutorial: 0006-tag-automations-unity-catalog/README.md
+      - Artigo recuperado: 0006-tag-automations-unity-catalog/artigo-linkedin.md
+      - Post com implementação: 0006-tag-automations-unity-catalog/post-linkedin.md
+  - '0007 — RAG em SQL com ai_search()':
+      - Tutorial: 0007-ai-search-rag-sql/README.md
+      - Artigo recuperado: 0007-ai-search-rag-sql/artigo-linkedin.md
+      - Post com implementação: 0007-ai-search-rag-sql/post-linkedin.md
+  - '0008 — Contexto no Data Lake para agentes':
+      - Tutorial: 0008-contexto-data-lake-agentes/README.md
+      - Artigo recuperado: 0008-contexto-data-lake-agentes/artigo-linkedin.md
+      - Post com implementação: 0008-contexto-data-lake-agentes/post-linkedin.md
+  - '0009 — VARIANT e Variant Shredding':
+      - Tutorial: 0009-variant-shredding-json/README.md
+      - Artigo recuperado: 0009-variant-shredding-json/artigo-linkedin.md
+      - Post com implementação: 0009-variant-shredding-json/post-linkedin.md
+  - '0010 — Fabric Native Execution Engine':
+      - Tutorial: 0010-fabric-native-execution-engine/README.md
+      - Artigo recuperado: 0010-fabric-native-execution-engine/artigo-linkedin.md
+      - Post com implementação: 0010-fabric-native-execution-engine/post-linkedin.md
+  - '0011 — AUTO CDC parcial e bitemporal':
+      - Tutorial: 0011-auto-cdc-partial-bitemporal/README.md
+      - Artigo recuperado: 0011-auto-cdc-partial-bitemporal/artigo-linkedin.md
+      - Post com implementação: 0011-auto-cdc-partial-bitemporal/post-linkedin.md
+  - '0012 — FILE type no Azure Databricks':
+      - Tutorial: 0012-file-type-databricks/README.md
+      - Artigo recuperado: 0012-file-type-databricks/artigo-linkedin.md
+      - Post com implementação: 0012-file-type-databricks/post-linkedin.md
+  - '0013 — Fabric Runtime 2.0 e Spark 4.1':
+      - Tutorial: 0013-fabric-runtime-2-spark-4/README.md
+      - Artigo recuperado: 0013-fabric-runtime-2-spark-4/artigo-linkedin.md
+      - Post com implementação: 0013-fabric-runtime-2-spark-4/post-linkedin.md
+  - '0014 — Capacity Overview Events':
+      - Tutorial: 0014-fabric-capacity-events/README.md
+      - Artigo recuperado: 0014-fabric-capacity-events/artigo-linkedin.md
+      - Post com implementação: 0014-fabric-capacity-events/post-linkedin.md
+  - '0015 — Gmail no Lakeflow Connect':
+      - Tutorial: 0015-gmail-lakeflow-connect/README.md
+      - Artigo recuperado: 0015-gmail-lakeflow-connect/artigo-linkedin.md
+      - Post com implementação: 0015-gmail-lakeflow-connect/post-linkedin.md
+  - '0016 — Workiva no Lakeflow Connect':
+      - Tutorial: 0016-workiva-lakeflow-connect/README.md
+      - Artigo recuperado: 0016-workiva-lakeflow-connect/artigo-linkedin.md
+      - Post com implementação: 0016-workiva-lakeflow-connect/post-linkedin.md
+  - '0017 — Managed Iceberg Sharing GA':
+      - Tutorial: 0017-iceberg-managed-sharing/README.md
+      - Artigo recuperado: 0017-iceberg-managed-sharing/artigo-linkedin.md
+      - Post com implementação: 0017-iceberg-managed-sharing/post-linkedin.md

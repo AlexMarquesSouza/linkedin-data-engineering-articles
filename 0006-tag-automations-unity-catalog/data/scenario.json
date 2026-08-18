@@ -1,0 +1,18 @@
+{
+  "assets": [
+    {
+      "name": "customers",
+      "columns": [
+        "id",
+        "email"
+      ]
+    },
+    {
+      "name": "orders",
+      "columns": [
+        "id",
+        "amount"
+      ]
+    }
+  ]
+}

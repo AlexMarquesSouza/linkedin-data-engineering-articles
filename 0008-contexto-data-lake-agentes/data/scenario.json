@@ -1,0 +1,23 @@
+{
+  "required": [
+    "owner",
+    "definition",
+    "classification"
+  ],
+  "assets": [
+    {
+      "name": "revenue",
+      "metadata": {
+        "owner": "finance",
+        "definition": "net revenue",
+        "classification": "internal"
+      }
+    },
+    {
+      "name": "events",
+      "metadata": {
+        "owner": "platform"
+      }
+    }
+  ]
+}

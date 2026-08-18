@@ -1,0 +1,21 @@
+{
+  "initial": {
+    "id": 1,
+    "name": "Ana",
+    "city": "SP"
+  },
+  "events": [
+    {
+      "sequence": 2,
+      "changes": {
+        "city": "BH"
+      }
+    },
+    {
+      "sequence": 1,
+      "changes": {
+        "name": "Ana Silva"
+      }
+    }
+  ]
+}

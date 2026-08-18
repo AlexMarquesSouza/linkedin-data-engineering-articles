@@ -1,0 +1,25 @@
+{
+  "required": [
+    "iceberg-rest",
+    "v2",
+    "read"
+  ],
+  "clients": [
+    {
+      "name": "engine-a",
+      "features": [
+        "iceberg-rest",
+        "v2",
+        "read"
+      ]
+    },
+    {
+      "name": "engine-b",
+      "features": [
+        "iceberg-rest",
+        "v1",
+        "read"
+      ]
+    }
+  ]
+}

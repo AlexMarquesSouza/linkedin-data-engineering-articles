@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "id": "a",
+      "version": 1
+    },
+    {
+      "id": "a",
+      "version": 2
+    },
+    {
+      "id": "b",
+      "version": 1
+    }
+  ]
+}

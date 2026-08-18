@@ -1,0 +1,17 @@
+{
+  "events": [
+    {
+      "capacity": "c1",
+      "utilization": 72
+    },
+    {
+      "capacity": "c1",
+      "utilization": 91
+    },
+    {
+      "capacity": "c2",
+      "utilization": 84
+    }
+  ],
+  "threshold": 85
+}

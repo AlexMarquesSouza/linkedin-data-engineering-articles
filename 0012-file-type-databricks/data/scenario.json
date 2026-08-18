@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "name": "invoice.pdf",
+      "mode": "MANAGED",
+      "uri": "/Volumes/docs/invoice.pdf"
+    },
+    {
+      "name": "photo.jpg",
+      "mode": "EXTERNAL",
+      "uri": "abfss://media/photo.jpg"
+    },
+    {
+      "name": "bad.txt",
+      "mode": "UNKNOWN",
+      "uri": "/tmp/bad"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "query": "governanca dados",
+  "documents": [
+    {
+      "id": "d1",
+      "text": "governanca e catalogo de dados"
+    },
+    {
+      "id": "d2",
+      "text": "otimizacao de clusters spark"
+    },
+    {
+      "id": "d3",
+      "text": "qualidade e governanca"
+    }
+  ]
+}

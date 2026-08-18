@@ -1,0 +1,13 @@
+{
+  "operations": [
+    "filter",
+    "python_udf",
+    "unsupported_custom_op",
+    "scala_udf"
+  ],
+  "native_supported": [
+    "filter",
+    "python_udf",
+    "scala_udf"
+  ]
+}
