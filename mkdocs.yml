@@ -28,6 +28,7 @@ exclude_docs: |
 nav:
   - Início: README.md
   - Padrão didático: docs/PADRAO-DIDATICO.md
+  - Publicar o site: docs/PUBLICAR-SITE.md
   - 000 — Configuração: 000-configuracao-ambiente/README.md
   - '0001 — Databricks Runtime 19 ou 18 LTS':
       - Tutorial: 0001-databricks-runtime-19-vs-18-lts/README.md
